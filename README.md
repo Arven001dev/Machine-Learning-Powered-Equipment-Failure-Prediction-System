@@ -1,4 +1,5 @@
-# Maintenance Prédictive avec Machine Learning
+# Maintenance 4.0 
+# Double Stratégie de Détection des Défaillances Critiques de Materiels par Classification Binaire et Multiclasse
 
 ## Pitch Éclair
 
