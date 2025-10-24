@@ -342,11 +342,7 @@ Surveillance de l'Équipement → Détection XGBoost → Alerte Déclenchée
 
 **Moyen Terme (3-6 mois) :**
 - [ ] Collecter des données de panne spécifiques à l'organisation pour réentraîner les modèles
-- [ ] Implémenter LSTM/RNN pour la modélisation de dégradation en séries temporelles
-- [ ] Aborder le défi de prédiction d'usure d'outil avec ingénierie de caractéristiques ciblée
-- [ ] Étendre le déploiement à l'ensemble du parc d'équipements
-- [ ] Intégrer avec le GMAO existant (Gestion de Maintenance Assistée par Ordinateur)
-
+- [ ] 
 **Long Terme (6-12 mois) :**
 - [ ] Déployer des capteurs IoT sur l'équipement non instrumenté pour la collecte de données en temps réel
 - [ ] Développer des modèles spécifiques à l'équipement pour différents types de machines
@@ -392,12 +388,6 @@ predictive-maintenance/
 │   ├── confusion_matrices/
 │   ├── eda_plots/
 │   └── feature_importance/
-│
-├── models/                     # Modèles entraînés sauvegardés (voir instructions ci-dessous)
-│   ├── xgboost_binary.pkl
-│   ├── balanced_bagging_multiclass.pkl
-│   └── scaler.pkl
-```
 
 ### Fichiers Clés
 
@@ -412,6 +402,3 @@ predictive-maintenance/
 - 10 000 enregistrements d'opérations de machines
 - 10 caractéristiques incluant données de capteurs et paramètres opérationnels
 - Cible binaire (panne/pas de panne) et cible multiclasse (types de pannes)
-
-
-# Sauvegarder le classificateur binaire XG
