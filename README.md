@@ -4,7 +4,7 @@
 
 Le projet développe un système intelligent de maintenance prédictive qui utilise le machine learning pour prévoir les pannes d'équipement avant qu'elles ne surviennent. En analysant les données de capteurs provenant de machines industrielles, le système identifie les défaillances potentielles avec une précision allant jusqu'à 95,7%, permettant aux organisations de passer d'une maintenance réactive coûteuse à une intervention proactive. La solution offre un cadre de prédiction en deux étapes : détecter les pannes imminentes et identifier les types de pannes spécifiques, réduisant ainsi les coûts d'arrêt imprévu et optimisant l'allocation des ressources de maintenance.
 
-![Schéma de la Stratégie de Maintenance Prédictive](header.webp)
+![Schéma de la Stratégie de Maintenance Prédictive](predictive_maintenance_market.webp)
 
 ---
 
